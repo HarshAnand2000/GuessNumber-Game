@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: #222;
+  color: #eee;
+  height: 100vh;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+/*------------------------------header----------------------------------*/
+header {
+  height: 35vh;
+  border-bottom: 8px solid #eee;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.between {
+  font-size: 0.8rem;
+  position: absolute;
+  top: 8%;
+  right: 2%;
+}
+
+.btn {
+  font-family: inherit;
+  padding: 1.2rem 1.5rem;
+  background-color: #eee;
+  color: #222;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #eeeeeeb2;
+  cursor: pointer;
+}
+
+.again {
+  position: absolute;
+  top: 8%;
+  left: 2%;
+}
+
+.number {
+  position: absolute;
+  text-align: center;
+  color: #222;
+  background-color: #eee;
+  font-size: 4rem;
+  padding: 1.8rem 2.8rem;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*------------------------------main----------------------------------*/
+main {
+  display: flex;
+  height: 65vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*------------------------------left section----------------------------------*/
+.left-section {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+#input-number {
+  text-align: center;
+  font-size: 4rem;
+  background: transparent;
+  border: 5px solid #eee;
+  padding: 1.2rem 0;
+  width: 16rem;
+  color: inherit;
+  font-family: inherit;
+}
+
+/*------------------------------right section----------------------------------*/
+.right-section {
+  width: 35rem;
+  font-size: 1.2rem;
+}
+
+.message {
+  margin-bottom: 6rem;
+}
+
+.label-score {
+  margin-bottom: 1.5rem;
+}
+
+.won-color {
+  background-color: #60b347;
+  transition: background-color 0.5s;
+}
+
+.won-padding {
+  padding: 1.8rem 6rem;
+  transition: padding 0.5s;
+}
+
+.lost {
+  background-color: rgb(235, 24, 24);
+  transition: background-color 0.5s;
+}
